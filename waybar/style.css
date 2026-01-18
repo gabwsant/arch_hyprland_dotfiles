@@ -94,3 +94,11 @@ tooltip label {
 #network.ethernet {
     background-color: #73daca;
 }
+
+#tray {
+    background-color: #6e78a3;
+    color: #1a1b26;
+    border-radius: 10px;
+    padding: 0 10px;
+    margin: 0 5px;
+}

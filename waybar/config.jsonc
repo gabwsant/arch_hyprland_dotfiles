@@ -11,7 +11,7 @@
         "clock"
     ],
     "modules-right": [
-        "network",
+        "tray",
         "backlight",
         "pulseaudio",
         "battery"
@@ -72,7 +72,7 @@
         "on-click-right": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"
     },
     "backlight": {
-        "device": "nvidia0nvidia_wmi_ec_backlight", // Mude para o nome do seu driver se necessário
+        //"device": "nvidia0nvidia_wmi_ec_backlight",
         "format": "{icon} {percent}%",
         "format-icons": [
             "",
@@ -87,5 +87,8 @@
         ],
         "on-scroll-up": "brightnessctl set +1%",
         "on-scroll-down": "brightnessctl set 1%-"
+    },
+    "tray": {
+        "spacing": 10
     }
 }
