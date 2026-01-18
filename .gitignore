@@ -1,0 +1,13 @@
+# caches e lixo
+*.log
+*.cache
+*.tmp
+
+# estados de apps
+state
+session
+
+# segredos
+.env
+secrets
+tokens
