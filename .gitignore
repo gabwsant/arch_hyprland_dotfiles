@@ -11,3 +11,7 @@ session
 .env
 secrets
 tokens
+
+# lazy nvim
+.repro.lua
+lazy-lock.json
