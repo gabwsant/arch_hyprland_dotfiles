@@ -1,0 +1,72 @@
+# ===== Look =====
+set font "JetBrainsMono Nerd Font 11"
+
+set default-bg "#1a1b26"
+set default-fg "#c0caf5"
+
+set statusbar-bg "#1a1b26"
+set statusbar-fg "#c0caf5"
+
+set inputbar-bg "#1a1b26"
+set inputbar-fg "#c0caf5"
+
+set notification-bg "#1a1b26"
+set notification-fg "#c0caf5"
+
+set highlight-color "#7aa2f7"
+set highlight-active-color "#bb9af7"
+
+# ===== Page =====
+set page-padding 5
+set window-title-basename true
+
+# ===== Navigation =====
+map j scroll down
+map k scroll up
+map h scroll left
+map l scroll right
+
+map J navigate next
+map K navigate previous
+
+map gg navigate top
+map G navigate bottom
+
+# ===== Zoom =====
+map + zoom in
+map - zoom out
+map = zoom in
+map _ zoom out
+
+set zoom-min 10
+set zoom-max 1000
+set zoom-step 10
+
+# ===== Rotation =====
+map r rotate
+
+# ===== Search =====
+map / search forward
+map ? search backward
+map n search next
+map N search previous
+
+# ===== Links =====
+map f follow
+
+# ===== Selection =====
+map v toggle_selection
+map y copy_selection
+
+# ===== Notes (PDF) =====
+map a set_mode annotate
+
+# ===== Mouse ======
+set selection-clipboard clipboard
+set scroll-page-aware true
+set smooth-scroll true
+
+# ===== Performance =====
+set render-loading true
+set render-loading-fg "#7aa2f7"
+set window-title-home-tilde true
